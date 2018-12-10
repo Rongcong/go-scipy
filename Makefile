@@ -2,7 +2,7 @@ SCIPY_VERSION=1.1.0
 
 scipy:
 	if [ ! -f "scipy-$(SCIPY_VERSION).tar.gz" ]; then \
-		wget https://github.com/scipy/scipy/releases/download/v$(SCIPY_VERSION)/scipy-$(SCIPY_VERSION).tar.gz; \
+		wget https://git.infervision.com/file/download/aobiunmay26bcxjkrhxe/PHID-FILE-vi55v2a7a5txp3ibqua3/scipy-$(SCIPY_VERSION).tar.gz; \
 	fi
 	tar -xzf scipy-$(SCIPY_VERSION).tar.gz
 	gcc \
